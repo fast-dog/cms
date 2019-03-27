@@ -1,9 +1,9 @@
 {
-  "name": "laravel/laravel",
+  "name": "fast_dog/cms",
   "type": "project",
-  "description": "The Laravel Framework.",
+  "description": "FastDog CMS.",
   "keywords": [
-    "framework",
+    "FastDog CMS",
     "laravel"
   ],
   "license": "MIT",
@@ -30,7 +30,9 @@
   },
   "extra": {
     "laravel": {
-      "dont-discover": []
+      "dont-discover": [
+        "*"
+      ]
     }
   },
   "autoload": {
