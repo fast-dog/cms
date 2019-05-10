@@ -176,6 +176,8 @@ return [
         App\Providers\RouteServiceProvider::class,
         Barryvdh\Debugbar\ServiceProvider::class,
         FastDog\Core\CoreServiceProvider::class,
+        FastDog\Admin\AdminServiceProvider::class,
+        FastDog\Frontend\FrontendServiceProvider::class,
     ],
 
     /*
