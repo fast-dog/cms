@@ -177,7 +177,7 @@ return [
         Barryvdh\Debugbar\ServiceProvider::class,
         FastDog\Core\CoreServiceProvider::class,
         FastDog\Admin\AdminServiceProvider::class,
-        FastDog\Frontend\FrontendServiceProvider::class,
+         FastDog\Frontend\FrontendServiceProvider::class,
     ],
 
     /*
