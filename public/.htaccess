@@ -18,4 +18,9 @@
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.php [L]
+
+        Header add Access-Control-Allow-Origin: *
+        Header add Access-Control-Allow-Credentials: true
+        Header add Access-Control-Allow-Headers: "origin, frame, x-requested-with, content-type, X-CSRF-TOKEN, Access-Control-Allow-Headers,Cache-Control"
+        Header add Access-Control-Allow-Methods: "GET, POST, OPTIONS,PUT,DELETE"
 </IfModule>
