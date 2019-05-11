@@ -15,6 +15,7 @@
     "fast_dog/core": "dev-master",
     "fast_dog/frontend": "dev-master",
     "fast_dog/admin": "dev-master",
+    "fast_dog/media": "dev-master",
     "fast_dog/user": "dev-master"
   },
   "require-dev": {
