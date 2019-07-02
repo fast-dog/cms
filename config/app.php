@@ -179,6 +179,7 @@ return [
         FastDog\Admin\AdminServiceProvider::class,
         FastDog\Frontend\FrontendServiceProvider::class,
         FastDog\User\UserServiceProvider::class,
+        FastDog\Config\ConfigServiceProvider::class,
     ],
 
     /*
