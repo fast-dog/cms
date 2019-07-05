@@ -64,6 +64,7 @@
       "@php artisan vendor:publish --provider=\"FastDog\\Config\\ConfigServiceProvider\"",
       "@php artisan vendor:publish --provider=\"Nahid\\Talk\\TalkServiceProvider\"",
       "@php artisan vendor:publish --provider=\"FastDog\\Core\\CoreServiceProvider\"",
+      "@php artisan vendor:publish --provider=\"FastDog\\Frontend\\FrontendServiceProvider\"",
       "@php artisan migrate"
     ],
     "post-root-package-install": [
