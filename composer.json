@@ -65,6 +65,7 @@
       "@php artisan vendor:publish --provider=\"Nahid\\Talk\\TalkServiceProvider\"",
       "@php artisan vendor:publish --provider=\"FastDog\\Core\\CoreServiceProvider\"",
       "@php artisan vendor:publish --provider=\"FastDog\\Frontend\\FrontendServiceProvider\"",
+      "@php artisan vendor:publish --provider=\"Intervention\\Image\\ImageServiceProviderLaravel5\"",
       "@php artisan migrate"
     ],
     "post-root-package-install": [
