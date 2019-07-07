@@ -650,12 +650,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fast-dog/core.git",
-                "reference": "c1c1c00a899aab984eb8ff252eb99ceae06f35b4"
+                "reference": "a98fcbacbf4bc04b21858d987fa74ff775f64643"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fast-dog/core/zipball/c1c1c00a899aab984eb8ff252eb99ceae06f35b4",
-                "reference": "c1c1c00a899aab984eb8ff252eb99ceae06f35b4",
+                "url": "https://api.github.com/repos/fast-dog/core/zipball/a98fcbacbf4bc04b21858d987fa74ff775f64643",
+                "reference": "a98fcbacbf4bc04b21858d987fa74ff775f64643",
                 "shasum": ""
             },
             "require": {
@@ -701,7 +701,7 @@
                 "FastDog CMS",
                 "laravel"
             ],
-            "time": "2019-07-06T08:49:22+00:00"
+            "time": "2019-07-06T13:45:56+00:00"
         },
         {
             "name": "fast_dog/frontend",
@@ -709,12 +709,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fast-dog/frontend.git",
-                "reference": "8075e6ad2313f9d8df5fb3ba544e2ab06658915a"
+                "reference": "000e7b6c861360be69754799cfa3bb0753777b95"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fast-dog/frontend/zipball/8075e6ad2313f9d8df5fb3ba544e2ab06658915a",
-                "reference": "8075e6ad2313f9d8df5fb3ba544e2ab06658915a",
+                "url": "https://api.github.com/repos/fast-dog/frontend/zipball/000e7b6c861360be69754799cfa3bb0753777b95",
+                "reference": "000e7b6c861360be69754799cfa3bb0753777b95",
                 "shasum": ""
             },
             "type": "project",
@@ -746,7 +746,7 @@
                 "FastDog CMS",
                 "laravel"
             ],
-            "time": "2019-07-06T08:53:46+00:00"
+            "time": "2019-07-06T13:47:23+00:00"
         },
         {
             "name": "fast_dog/media",
@@ -754,12 +754,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fast-dog/media.git",
-                "reference": "9756b7ddcc9e3724a2a1f21650ab7d9dee6272e5"
+                "reference": "752f34e614f775a581358fa03a192214d32b9e9b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fast-dog/media/zipball/9756b7ddcc9e3724a2a1f21650ab7d9dee6272e5",
-                "reference": "9756b7ddcc9e3724a2a1f21650ab7d9dee6272e5",
+                "url": "https://api.github.com/repos/fast-dog/media/zipball/752f34e614f775a581358fa03a192214d32b9e9b",
+                "reference": "752f34e614f775a581358fa03a192214d32b9e9b",
                 "shasum": ""
             },
             "require": {
@@ -795,7 +795,7 @@
                 "FastDog CMS",
                 "laravel"
             ],
-            "time": "2019-07-01T09:28:16+00:00"
+            "time": "2019-07-06T09:25:00+00:00"
         },
         {
             "name": "fast_dog/user",
@@ -803,12 +803,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fast-dog/user.git",
-                "reference": "bd3593adedc8efa9bb204ed6128355b7972b8a39"
+                "reference": "d4a7b33ee7ac82faab8f9d4af49e633176ec36e6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fast-dog/user/zipball/bd3593adedc8efa9bb204ed6128355b7972b8a39",
-                "reference": "bd3593adedc8efa9bb204ed6128355b7972b8a39",
+                "url": "https://api.github.com/repos/fast-dog/user/zipball/d4a7b33ee7ac82faab8f9d4af49e633176ec36e6",
+                "reference": "d4a7b33ee7ac82faab8f9d4af49e633176ec36e6",
                 "shasum": ""
             },
             "require": {
@@ -848,7 +848,7 @@
                 "FastDog CMS",
                 "laravel"
             ],
-            "time": "2019-07-06T08:47:58+00:00"
+            "time": "2019-07-06T13:59:20+00:00"
         },
         {
             "name": "fideloper/proxy",
