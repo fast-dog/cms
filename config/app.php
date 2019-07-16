@@ -180,6 +180,7 @@ return [
         FastDog\Frontend\FrontendServiceProvider::class,
         FastDog\User\UserServiceProvider::class,
         FastDog\Config\ConfigServiceProvider::class,
+        FastDog\Media\MediaServiceProvider::class,
     ],
 
     /*
