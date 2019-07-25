@@ -651,12 +651,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fast-dog/core.git",
-                "reference": "e31a3c6c47241f7b9f6a23f8d3c4fc5b528c66b2"
+                "reference": "9b5793dc75f5a7f2a11f09a2bf7c94962ad3d986"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fast-dog/core/zipball/e31a3c6c47241f7b9f6a23f8d3c4fc5b528c66b2",
-                "reference": "e31a3c6c47241f7b9f6a23f8d3c4fc5b528c66b2",
+                "url": "https://api.github.com/repos/fast-dog/core/zipball/9b5793dc75f5a7f2a11f09a2bf7c94962ad3d986",
+                "reference": "9b5793dc75f5a7f2a11f09a2bf7c94962ad3d986",
                 "shasum": ""
             },
             "require": {
@@ -702,7 +702,7 @@
                 "FastDog CMS",
                 "laravel"
             ],
-            "time": "2019-07-15T19:04:11+00:00"
+            "time": "2019-07-25T13:16:06+00:00"
         },
         {
             "name": "fast_dog/frontend",
@@ -804,12 +804,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fast-dog/user.git",
-                "reference": "0fc1c3346405585761a8f7f4f1427e05d90bd9d7"
+                "reference": "a0af0d10d9ea4a7b0c70b4af44dae496ddabeec4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fast-dog/user/zipball/0fc1c3346405585761a8f7f4f1427e05d90bd9d7",
-                "reference": "0fc1c3346405585761a8f7f4f1427e05d90bd9d7",
+                "url": "https://api.github.com/repos/fast-dog/user/zipball/a0af0d10d9ea4a7b0c70b4af44dae496ddabeec4",
+                "reference": "a0af0d10d9ea4a7b0c70b4af44dae496ddabeec4",
                 "shasum": ""
             },
             "require": {
@@ -849,7 +849,7 @@
                 "FastDog CMS",
                 "laravel"
             ],
-            "time": "2019-07-24T09:07:08+00:00"
+            "time": "2019-07-25T14:10:07+00:00"
         },
         {
             "name": "fideloper/proxy",
