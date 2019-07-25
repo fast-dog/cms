@@ -450,16 +450,16 @@
         },
         {
             "name": "egulias/email-validator",
-            "version": "2.1.9",
+            "version": "2.1.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/egulias/EmailValidator.git",
-                "reference": "128cc721d771ec2c46ce59698f4ca42b73f71b25"
+                "reference": "a6c8d7101b19a451c1707b1b79bbbc56e4bdb7ec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/128cc721d771ec2c46ce59698f4ca42b73f71b25",
-                "reference": "128cc721d771ec2c46ce59698f4ca42b73f71b25",
+                "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/a6c8d7101b19a451c1707b1b79bbbc56e4bdb7ec",
+                "reference": "a6c8d7101b19a451c1707b1b79bbbc56e4bdb7ec",
                 "shasum": ""
             },
             "require": {
@@ -469,7 +469,8 @@
             "require-dev": {
                 "dominicsayers/isemail": "dev-master",
                 "phpunit/phpunit": "^4.8.35||^5.7||^6.0",
-                "satooshi/php-coveralls": "^1.0.1"
+                "satooshi/php-coveralls": "^1.0.1",
+                "symfony/phpunit-bridge": "^4.4@dev"
             },
             "suggest": {
                 "ext-intl": "PHP Internationalization Libraries are required to use the SpoofChecking validation"
@@ -503,7 +504,7 @@
                 "validation",
                 "validator"
             ],
-            "time": "2019-06-23T10:14:27+00:00"
+            "time": "2019-07-19T20:52:08+00:00"
         },
         {
             "name": "erusev/parsedown",
@@ -709,12 +710,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fast-dog/frontend.git",
-                "reference": "745374fe969768687383712bf2dbb498c0a953d6"
+                "reference": "7e5ffc2eef5e3251ce3b7bac82f36c6c20c25c4a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fast-dog/frontend/zipball/745374fe969768687383712bf2dbb498c0a953d6",
-                "reference": "745374fe969768687383712bf2dbb498c0a953d6",
+                "url": "https://api.github.com/repos/fast-dog/frontend/zipball/7e5ffc2eef5e3251ce3b7bac82f36c6c20c25c4a",
+                "reference": "7e5ffc2eef5e3251ce3b7bac82f36c6c20c25c4a",
                 "shasum": ""
             },
             "type": "project",
@@ -746,7 +747,7 @@
                 "FastDog CMS",
                 "laravel"
             ],
-            "time": "2019-07-16T17:25:08+00:00"
+            "time": "2019-07-16T17:51:39+00:00"
         },
         {
             "name": "fast_dog/media",
@@ -754,12 +755,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fast-dog/media.git",
-                "reference": "f11a807b61f8efd011c4dc1d8476ade377cf4aba"
+                "reference": "797e633795f355d8e2d978f5a821a556860b7fb3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fast-dog/media/zipball/f11a807b61f8efd011c4dc1d8476ade377cf4aba",
-                "reference": "f11a807b61f8efd011c4dc1d8476ade377cf4aba",
+                "url": "https://api.github.com/repos/fast-dog/media/zipball/797e633795f355d8e2d978f5a821a556860b7fb3",
+                "reference": "797e633795f355d8e2d978f5a821a556860b7fb3",
                 "shasum": ""
             },
             "require": {
@@ -795,7 +796,7 @@
                 "FastDog CMS",
                 "laravel"
             ],
-            "time": "2019-07-16T17:24:00+00:00"
+            "time": "2019-07-24T09:36:07+00:00"
         },
         {
             "name": "fast_dog/user",
@@ -803,12 +804,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fast-dog/user.git",
-                "reference": "4233b6cc65c8da7e834a125aa1b81d955b3d6318"
+                "reference": "0fc1c3346405585761a8f7f4f1427e05d90bd9d7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fast-dog/user/zipball/4233b6cc65c8da7e834a125aa1b81d955b3d6318",
-                "reference": "4233b6cc65c8da7e834a125aa1b81d955b3d6318",
+                "url": "https://api.github.com/repos/fast-dog/user/zipball/0fc1c3346405585761a8f7f4f1427e05d90bd9d7",
+                "reference": "0fc1c3346405585761a8f7f4f1427e05d90bd9d7",
                 "shasum": ""
             },
             "require": {
@@ -848,7 +849,7 @@
                 "FastDog CMS",
                 "laravel"
             ],
-            "time": "2019-07-15T19:13:01+00:00"
+            "time": "2019-07-24T09:07:08+00:00"
         },
         {
             "name": "fideloper/proxy",
@@ -1369,7 +1370,7 @@
             "time": "2019-03-10T08:50:58+00:00"
         },
         {
-            "name": "jeremeamia/SuperClosure",
+            "name": "jeremeamia/superclosure",
             "version": "2.4.0",
             "source": {
                 "type": "git",
@@ -1408,9 +1409,9 @@
             "authors": [
                 {
                     "name": "Jeremy Lindblom",
+                    "role": "Developer",
                     "email": "jeremeamia@gmail.com",
-                    "homepage": "https://github.com/jeremeamia",
-                    "role": "Developer"
+                    "homepage": "https://github.com/jeremeamia"
                 }
             ],
             "description": "Serialize Closure objects, including their context and binding",
@@ -1916,9 +1917,9 @@
             "authors": [
                 {
                     "name": "Ben Corlett",
+                    "role": "Developer",
                     "email": "bencorlett@me.com",
-                    "homepage": "http://www.webcomm.com.au",
-                    "role": "Developer"
+                    "homepage": "http://www.webcomm.com.au"
                 }
             ],
             "description": "OAuth 1.0 Client Library",
@@ -3273,20 +3274,20 @@
         },
         {
             "name": "spatie/db-dumper",
-            "version": "2.14.0",
+            "version": "2.14.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/db-dumper.git",
-                "reference": "eec21c55012b02fb8453c9929fa1c3150ca184ac"
+                "reference": "093750d69c383fb14d9e7cd6caa052ea7b35e5b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/db-dumper/zipball/eec21c55012b02fb8453c9929fa1c3150ca184ac",
-                "reference": "eec21c55012b02fb8453c9929fa1c3150ca184ac",
+                "url": "https://api.github.com/repos/spatie/db-dumper/zipball/093750d69c383fb14d9e7cd6caa052ea7b35e5b5",
+                "reference": "093750d69c383fb14d9e7cd6caa052ea7b35e5b5",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.1",
+                "php": "^7.3",
                 "symfony/process": "^4.2"
             },
             "require-dev": {
@@ -3319,7 +3320,7 @@
                 "mysqldump",
                 "spatie"
             ],
-            "time": "2019-04-17T07:03:19+00:00"
+            "time": "2019-06-28T08:23:04+00:00"
         },
         {
             "name": "studio-42/elfinder",
@@ -4053,7 +4054,7 @@
                 },
                 {
                     "name": "Gert de Pagter",
-                    "email": "backendtea@gmail.com"
+                    "email": "BackEndTea@gmail.com"
                 }
             ],
             "description": "Symfony polyfill for ctype functions",
@@ -5909,8 +5910,8 @@
             "authors": [
                 {
                     "name": "Sebastian Bergmann",
-                    "email": "sebastian@phpunit.de",
-                    "role": "lead"
+                    "role": "lead",
+                    "email": "sebastian@phpunit.de"
                 }
             ],
             "description": "Library that provides collection, processing, and rendering functionality for PHP code coverage information.",
@@ -6064,16 +6065,16 @@
         },
         {
             "name": "phpunit/php-token-stream",
-            "version": "3.0.2",
+            "version": "3.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-token-stream.git",
-                "reference": "c4a66b97f040e3e20b3aa2a243230a1c3a9f7c8c"
+                "reference": "e899757bb3df5ff6e95089132f32cd59aac2220a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/c4a66b97f040e3e20b3aa2a243230a1c3a9f7c8c",
-                "reference": "c4a66b97f040e3e20b3aa2a243230a1c3a9f7c8c",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/e899757bb3df5ff6e95089132f32cd59aac2220a",
+                "reference": "e899757bb3df5ff6e95089132f32cd59aac2220a",
                 "shasum": ""
             },
             "require": {
@@ -6086,7 +6087,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0-dev"
+                    "dev-master": "3.1-dev"
                 }
             },
             "autoload": {
@@ -6109,7 +6110,7 @@
             "keywords": [
                 "tokenizer"
             ],
-            "time": "2019-07-08T05:24:54+00:00"
+            "time": "2019-07-25T05:29:42+00:00"
         },
         {
             "name": "phpunit/phpunit",
@@ -6182,8 +6183,8 @@
             "authors": [
                 {
                     "name": "Sebastian Bergmann",
-                    "email": "sebastian@phpunit.de",
-                    "role": "lead"
+                    "role": "lead",
+                    "email": "sebastian@phpunit.de"
                 }
             ],
             "description": "The PHP Unit Testing framework.",
