@@ -17,7 +17,9 @@
     "fast_dog/admin": "dev-master",
     "fast_dog/media": "dev-master",
     "fast_dog/config": "dev-master",
-    "fast_dog/user": "dev-master"
+    "fast_dog/user": "dev-master",
+    "fast_dog/menu": "dev-master",
+    "ext-simplexml": "*"
   },
   "require-dev": {
     "beyondcode/laravel-dump-server": "^1.0",
@@ -67,6 +69,7 @@
       "@php artisan vendor:publish --provider=\"FastDog\\Frontend\\FrontendServiceProvider\"",
       "@php artisan vendor:publish --provider=\"FastDog\\Media\\MediaServiceProvider\"",
       "@php artisan vendor:publish --provider=\"FastDog\\Media\\MediaServiceProvider\" --tag=view",
+      "@php artisan vendor:publish --provider=\"FastDog\\Menu\\MenuServiceProvider\"",
       "@php artisan vendor:publish --provider=\"Intervention\\Image\\ImageServiceProviderLaravel5\"",
       "@php artisan migrate"
     ],
