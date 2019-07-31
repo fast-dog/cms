@@ -336,28 +336,30 @@
         },
         {
             "name": "doctrine/lexer",
-            "version": "1.0.2",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/lexer.git",
-                "reference": "1febd6c3ef84253d7c815bed85fc622ad207a9f8"
+                "reference": "e17f069ede36f7534b95adec71910ed1b49c74ea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/lexer/zipball/1febd6c3ef84253d7c815bed85fc622ad207a9f8",
-                "reference": "1febd6c3ef84253d7c815bed85fc622ad207a9f8",
+                "url": "https://api.github.com/repos/doctrine/lexer/zipball/e17f069ede36f7534b95adec71910ed1b49c74ea",
+                "reference": "e17f069ede36f7534b95adec71910ed1b49c74ea",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.2"
+                "php": "^7.2"
             },
             "require-dev": {
-                "phpunit/phpunit": "^4.5"
+                "doctrine/coding-standard": "^6.0",
+                "phpstan/phpstan": "^0.11.8",
+                "phpunit/phpunit": "^8.2"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0.x-dev"
+                    "dev-master": "1.1.x-dev"
                 }
             },
             "autoload": {
@@ -371,12 +373,12 @@
             ],
             "authors": [
                 {
-                    "name": "Roman Borschel",
-                    "email": "roman@code-factory.org"
-                },
-                {
                     "name": "Guilherme Blanco",
                     "email": "guilhermeblanco@gmail.com"
+                },
+                {
+                    "name": "Roman Borschel",
+                    "email": "roman@code-factory.org"
                 },
                 {
                     "name": "Johannes Schmitt",
@@ -392,7 +394,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2019-06-08T11:03:04+00:00"
+            "time": "2019-07-30T19:33:28+00:00"
         },
         {
             "name": "dragonmantank/cron-expression",
@@ -804,12 +806,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fast-dog/menu.git",
-                "reference": "b8f84b2ca586f884e8b9903d4c73a64acdf054bb"
+                "reference": "a56aa86145dc476ac9b4f36b32eac0fca7638af1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fast-dog/menu/zipball/b8f84b2ca586f884e8b9903d4c73a64acdf054bb",
-                "reference": "b8f84b2ca586f884e8b9903d4c73a64acdf054bb",
+                "url": "https://api.github.com/repos/fast-dog/menu/zipball/a56aa86145dc476ac9b4f36b32eac0fca7638af1",
+                "reference": "a56aa86145dc476ac9b4f36b32eac0fca7638af1",
                 "shasum": ""
             },
             "require": {
@@ -840,7 +842,7 @@
                 "FastDog CMS",
                 "laravel"
             ],
-            "time": "2019-07-30T19:13:39+00:00"
+            "time": "2019-07-30T19:50:59+00:00"
         },
         {
             "name": "fast_dog/user",
