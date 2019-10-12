@@ -19,6 +19,7 @@
     "fast_dog/config": "dev-master",
     "fast_dog/user": "dev-master",
     "fast_dog/menu": "dev-master",
+    "fast_dog/content": "dev-master",
     "ext-simplexml": "*"
   },
   "require-dev": {

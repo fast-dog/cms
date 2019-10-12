@@ -179,9 +179,11 @@ return [
         FastDog\Admin\AdminServiceProvider::class,
         FastDog\Frontend\FrontendServiceProvider::class,
         FastDog\Menu\MenuServiceProvider::class,
+        FastDog\Content\ContentServiceProvider::class,
         FastDog\User\UserServiceProvider::class,
         FastDog\Config\ConfigServiceProvider::class,
         FastDog\Media\MediaServiceProvider::class,
+
 
     ],
 
