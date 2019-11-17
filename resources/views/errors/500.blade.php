@@ -5,14 +5,15 @@
  * Date: 15.03.2017
  * Time: 16:28
  */
+use FastDog\Core\Models\DomainManager;
 
 if (\Request::ajax()) {
     echo json_encode(['success' => false, '404' => true]);
     die;
 }
-$theme = \App\Modules\Config\Entity\DomainManager::getAssetPath();
+$theme =  DomainManager::getAssetPath();
 ?>
-@extends('public.000.layouts.error')
+@extends('layouts.error')
 
 @section('css')
     <link rel="stylesheet" href="<?=url($theme . 'css/pages/page_404_error.css')?>">

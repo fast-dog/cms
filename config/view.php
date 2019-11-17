@@ -32,5 +32,14 @@ return [
         'VIEW_COMPILED_PATH',
         realpath(storage_path('framework/views'))
     ),
-
+    /*
+     * Диреткория для размещения шаблонов для дополнительных доменов
+     *
+     *      resources/views/vendor/fast_dog/
+     *                                      000/ <-- шаблоны по умолчанию
+     *                                      001/
+     *                                      002/
+     *                                      .../
+     */
+    'domain_dir' => 'resources/views/vendor/fast_dog'
 ];

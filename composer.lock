@@ -795,12 +795,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fast-dog/menu.git",
-                "reference": "f2b512342f839a294c48b08a1d8415d2d91dbc24"
+                "reference": "700d56fc1de0113f15893161873ab2e35c9fcee2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fast-dog/menu/zipball/f2b512342f839a294c48b08a1d8415d2d91dbc24",
-                "reference": "f2b512342f839a294c48b08a1d8415d2d91dbc24",
+                "url": "https://api.github.com/repos/fast-dog/menu/zipball/700d56fc1de0113f15893161873ab2e35c9fcee2",
+                "reference": "700d56fc1de0113f15893161873ab2e35c9fcee2",
                 "shasum": ""
             },
             "require": {
@@ -831,7 +831,7 @@
                 "FastDog CMS",
                 "laravel"
             ],
-            "time": "2019-11-16T17:27:44+00:00"
+            "time": "2019-11-17T11:08:01+00:00"
         },
         {
             "name": "fast_dog/user",

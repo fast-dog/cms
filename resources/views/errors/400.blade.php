@@ -15,7 +15,7 @@ if (\Request::ajax()) {
 }
 $theme = DomainManager::getAssetPath();
 ?>
-@extends('public.000.layouts.error')
+@extends('layouts.error')
 
 @section('css')
 

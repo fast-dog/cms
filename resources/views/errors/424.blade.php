@@ -13,7 +13,7 @@ if (\Request::ajax()) {
 }
 
 ?>
-@extends('public.000.layouts.error')
+@extends('layouts.error')
 
 @section('css')
 
