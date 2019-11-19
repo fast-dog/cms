@@ -647,12 +647,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fast-dog/core.git",
-                "reference": "7bd1c48c6dac8c3e26e675ed8ac1f0ddb8faf78a"
+                "reference": "029b82010d334cb5f465f12dc986dbcf2d1f2a3a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fast-dog/core/zipball/7bd1c48c6dac8c3e26e675ed8ac1f0ddb8faf78a",
-                "reference": "7bd1c48c6dac8c3e26e675ed8ac1f0ddb8faf78a",
+                "url": "https://api.github.com/repos/fast-dog/core/zipball/029b82010d334cb5f465f12dc986dbcf2d1f2a3a",
+                "reference": "029b82010d334cb5f465f12dc986dbcf2d1f2a3a",
                 "shasum": ""
             },
             "require": {
@@ -695,7 +695,7 @@
                 "FastDog CMS",
                 "laravel"
             ],
-            "time": "2019-11-16T14:39:13+00:00"
+            "time": "2019-11-19T15:44:56+00:00"
         },
         {
             "name": "fast_dog/frontend",
@@ -795,12 +795,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fast-dog/menu.git",
-                "reference": "700d56fc1de0113f15893161873ab2e35c9fcee2"
+                "reference": "0ce26784d265fd9f716dc40f0c7d0d20e313bbaf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fast-dog/menu/zipball/700d56fc1de0113f15893161873ab2e35c9fcee2",
-                "reference": "700d56fc1de0113f15893161873ab2e35c9fcee2",
+                "url": "https://api.github.com/repos/fast-dog/menu/zipball/0ce26784d265fd9f716dc40f0c7d0d20e313bbaf",
+                "reference": "0ce26784d265fd9f716dc40f0c7d0d20e313bbaf",
                 "shasum": ""
             },
             "require": {
@@ -831,7 +831,7 @@
                 "FastDog CMS",
                 "laravel"
             ],
-            "time": "2019-11-17T11:08:01+00:00"
+            "time": "2019-11-19T15:45:18+00:00"
         },
         {
             "name": "fast_dog/user",
